@@ -33,5 +33,5 @@ py pruebas.py   # ejecutar las pruebas
 Estructuras de control, funciones, arreglos paralelos, cadenas de caracteres, archivos y control de versiones con Git y GitHub.
 
 ## Autoríaparticipado
-Integrantes: Nil Anderson Milla Layme , DHAN JANIOS TRUJILLO CARDENAS y HALIMA ELIANA CORNEJO TAKI.
+Integrantes: Nil Anderson Milla Layme ,Sebastian William Chuchon Paulino y Max Erick Angulo Ingaroca.
 
