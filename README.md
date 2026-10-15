@@ -35,4 +35,3 @@ Estructuras de control, funciones, arreglos paralelos, cadenas de caracteres, ar
 ## Autoríaparticipado
 Integrantes: Nil Anderson Milla Layme , DHAN JANIOS TRUJILLO CARDENAS y HALIMA ELIANA CORNEJO TAKI.
 
-Se usó IA (Claude, Anthropic) como apoyo para el código base y la documentación; todo fue revisado y probado por el autor.
