@@ -35,6 +35,6 @@ py eficiencia.py  # medir comparaciones de los algoritmos
 ## Conceptos aplicados
 Estructuras de control, funciones, arreglos paralelos, cadenas de caracteres, archivos y control de versiones con Git y GitHub.
 
-## Autoríaparticipado
-Integrantes: Nil Anderson Milla Layme ,Sebastian William Chuchon Paulino y Max Erick Angulo Ingaroca.
+## Autoría
+Integrantes: Nil Anderson Milla Layme, Max Erik Angulo Ingaroca y Sebastian William Chuchon Paulino.
 

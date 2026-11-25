@@ -1,7 +1,7 @@
 """Casos de prueba. Ejecutar: python pruebas.py
 
 Los últimos grupos (CAMPO, RECURSIVIDAD, PERSISTENCIA) usan casos basados en el
-proceso observado en la UPN Ate (14/10/2026). Los nombres y DNI son ficticios.
+proceso observado en la UPN Ate (14/10/2026).
 """
 import os
 import algoritmos, archivos, expedientes, validaciones
