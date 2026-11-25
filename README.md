@@ -9,7 +9,8 @@ El caso se basa en el proceso de inscripción observado en la UPN: el postulante
 - Generar un código correlativo por expediente (formato `EXP-AAAA-NNNN`).
 - Buscar un expediente por código (búsqueda binaria).
 - Listar expedientes ordenados por código (ordenamiento burbuja).
-- Guardar los datos de forma permanente en `expedientes.txt`.
+- Guardar los datos de forma permanente en `expedientes.txt` (guardado seguro: archivo temporal + `os.replace`).
+- Resumen de expedientes por estado con una función recursiva (Tema 7).
 
 ## Estructura
 | Archivo | Contenido |
@@ -19,7 +20,8 @@ El caso se basa en el proceso de inscripción observado en la UPN: el postulante
 | `validaciones.py` | Validación de datos |
 | `algoritmos.py` | Ordenamiento y búsqueda sobre arreglos paralelos |
 | `archivos.py` | Guardar y cargar en archivo de texto |
-| `pruebas.py` | Casos de prueba |
+| `pruebas.py` | 43 casos de prueba (validaciones, campo UPN, recursividad, persistencia) |
+| `eficiencia.py` | Cuenta comparaciones: lineal vs. binaria vs. burbuja |
 
 ## Cómo ejecutarlo
 Requiere Python 3. En Windows:
@@ -27,6 +29,7 @@ Requiere Python 3. En Windows:
 ```
 py main.py      # abrir el menú
 py pruebas.py   # ejecutar las pruebas
+py eficiencia.py  # medir comparaciones de los algoritmos
 ```
 
 ## Conceptos aplicados
