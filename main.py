@@ -13,7 +13,8 @@ def mostrar_menu():
     print("2. Consultar por código")
     print("3. Listar expedientes (ordenados por código)")
     print("4. Cambiar estado")
-    print("5. Salir")
+    print("5. Resumen por estado")
+    print("6. Salir")
 
 
 def opcion_registrar(tabla):
@@ -60,11 +61,21 @@ def opcion_estado(tabla):
         print("No se encontró el expediente.")
 
 
+def opcion_resumen(tabla):
+    """Cuenta los expedientes de cada estado con la función recursiva."""
+    if not tabla[0]:
+        print("No hay expedientes registrados.")
+        return
+    for estado in ESTADOS:
+        print(" ", estado.ljust(12), ":", algoritmos.contar_recursivo(tabla[7], estado))
+    print("  Total       :", len(tabla[0]))
+
+
 def main():
     tabla = archivos.cargar(RUTA)
     print("Expedientes cargados:", len(tabla[0]))
     opcion = ""
-    while opcion != "5":
+    while opcion != "6":
         mostrar_menu()
         opcion = input("Elige una opción: ").strip()
         if opcion == "1":
@@ -75,7 +86,9 @@ def main():
             opcion_listar(tabla)
         elif opcion == "4":
             opcion_estado(tabla)
-        elif opcion != "5":
+        elif opcion == "5":
+            opcion_resumen(tabla)
+        elif opcion != "6":
             print("Opción no válida.")
     print("Hasta pronto.")
 
